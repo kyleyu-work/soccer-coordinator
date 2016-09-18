@@ -204,3 +204,71 @@ assignPlayers(InexperiencedPlayers)
 calAverageHeight()
 printPersonalizedLetters()
 
+
+/**
+ * The result in console:
+ *
+ *
+ Team 0 average height: 41.6666666666667
+ **********************************************************************
+ Jill Tanner, experienced, 36
+ Herschel Krustofski, experienced, 45
+ Karl Saygan, experienced, 42
+ Joe Kavalier, inexperienced, 39
+ Chloe Alaska, inexperienced, 47
+ Sal Dali, inexperienced, 41
+ 
+ 
+ Team 1 average height: 42.5
+ **********************************************************************
+ Diego Soto, experienced, 41
+ Phililip Helm, experienced, 44
+ Les Clay, experienced, 42
+ Matt Gill, inexperienced, 40
+ Sammy Adams, inexperienced, 45
+ Arnold Willis, inexperienced, 43
+ 
+ 
+ Team 2 average height: 42.8333333333333
+ **********************************************************************
+ Karl Saygan, experienced, 42
+ Bill Bon, experienced, 43
+ Bill Bon, experienced, 43
+ Sal Dali, inexperienced, 41
+ Ben Finkelstein, inexperienced, 44
+ Ben Finkelstein, inexperienced, 44
+ 
+ 
+ Letters for players in Dragons team:
+ *********************************************************************
+ 
+ Hi, Clara Tanner, your child Jill Tanner is in Dragons team, please attend the practice at March 17, 1pm if you like.
+ Hi, Hyman and Rachel Krustofski, your child Herschel Krustofski is in Dragons team, please attend the practice at March 17, 1pm if you like.
+ Hi, Heather Bledsoe, your child Karl Saygan is in Dragons team, please attend the practice at March 17, 1pm if you like.
+ Hi, Sam and Elaine Kavalier, your child Joe Kavalier is in Dragons team, please attend the practice at March 17, 1pm if you like.
+ Hi, David and Jamie Alaska, your child Chloe Alaska is in Dragons team, please attend the practice at March 17, 1pm if you like.
+ Hi, Gala Dali, your child Sal Dali is in Dragons team, please attend the practice at March 17, 1pm if you like.
+ 
+ 
+ Letters for players in Sharks team:
+ *********************************************************************
+ 
+ Hi, Robin and Sarika Soto, your child Diego Soto is in Sharks team, please attend the practice at March 17, 3pm if you like.
+ Hi, Thomas Helm and Eva Jones, your child Phililip Helm is in Sharks team, please attend the practice at March 17, 3pm if you like.
+ Hi, Wynonna Brown, your child Les Clay is in Sharks team, please attend the practice at March 17, 3pm if you like.
+ Hi, Charles and Sylvia Gill, your child Matt Gill is in Sharks team, please attend the practice at March 17, 3pm if you like.
+ Hi, Jeff Adams, your child Sammy Adams is in Sharks team, please attend the practice at March 17, 3pm if you like.
+ Hi, Claire Willis, your child Arnold Willis is in Sharks team, please attend the practice at March 17, 3pm if you like.
+ 
+ 
+ Letters for players in Raptors team:
+ *********************************************************************
+ 
+ Hi, Heather Bledsoe, your child Karl Saygan is in Raptors team, please attend the practice at March 18, 1pm if you like.
+ Hi, Sara and Jenny Bon, your child Bill Bon is in Raptors team, please attend the practice at March 18, 1pm if you like.
+ Hi, Sara and Jenny Bon, your child Bill Bon is in Raptors team, please attend the practice at March 18, 1pm if you like.
+ Hi, Gala Dali, your child Sal Dali is in Raptors team, please attend the practice at March 18, 1pm if you like.
+ Hi, Aaron and Jill Finkelstein, your child Ben Finkelstein is in Raptors team, please attend the practice at March 18, 1pm if you like.
+ Hi, Aaron and Jill Finkelstein, your child Ben Finkelstein is in Raptors team, please attend the practice at March 18, 1pm if you like.
+*/
+
