@@ -142,7 +142,7 @@ func assignPlayers(_ players: [[String: Any]]) {
   
   /**
    * If playerPerTeam is odd number, that means there are teamNum players left from
-   * the first round assigning. Then we can just assign them even to teamNum teams.
+   * the first round assigning. Then we can just assign them evenly to teamNum teams.
    */
   if playerPerTeam % 2 == 1 {
     for k in 0..<teamNum {
