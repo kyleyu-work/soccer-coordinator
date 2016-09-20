@@ -202,7 +202,6 @@ assignPlayers(experiencedPlayers)
 assignPlayers(inexperiencedPlayers)
 
 calAverageHeight()
-
 printPersonalizedLetters()
 
 
@@ -230,13 +229,13 @@ printPersonalizedLetters()
  Arnold Willis, inexperienced, 43
  
  
- Team 2 average height: 42.8333333333333
+ Team 2 average height: 43.1666666666667
  **********************************************************************
- Karl Saygan, experienced, 42
+ Joe Smith, experienced, 42
+ Suzane Greenberg, experienced, 44
  Bill Bon, experienced, 43
- Bill Bon, experienced, 43
- Sal Dali, inexperienced, 41
- Ben Finkelstein, inexperienced, 44
+ Kimmy Stein, inexperienced, 41
+ Eva Gordon, inexperienced, 45
  Ben Finkelstein, inexperienced, 44
  
  
@@ -265,11 +264,11 @@ printPersonalizedLetters()
  Letters for players in Raptors team:
  *********************************************************************
  
- Hi, Heather Bledsoe, your child Karl Saygan is in Raptors team, please attend the practice at March 18, 1pm if you like.
+ Hi, Jim and Jan Smith, your child Joe Smith is in Raptors team, please attend the practice at March 18, 1pm if you like.
+ Hi, Henrietta Dumas, your child Suzane Greenberg is in Raptors team, please attend the practice at March 18, 1pm if you like.
  Hi, Sara and Jenny Bon, your child Bill Bon is in Raptors team, please attend the practice at March 18, 1pm if you like.
- Hi, Sara and Jenny Bon, your child Bill Bon is in Raptors team, please attend the practice at March 18, 1pm if you like.
- Hi, Gala Dali, your child Sal Dali is in Raptors team, please attend the practice at March 18, 1pm if you like.
- Hi, Aaron and Jill Finkelstein, your child Ben Finkelstein is in Raptors team, please attend the practice at March 18, 1pm if you like.
+ Hi, Bill and Hillary Stein, your child Kimmy Stein is in Raptors team, please attend the practice at March 18, 1pm if you like.
+ Hi, Wendy and Mike Gordon, your child Eva Gordon is in Raptors team, please attend the practice at March 18, 1pm if you like.
  Hi, Aaron and Jill Finkelstein, your child Ben Finkelstein is in Raptors team, please attend the practice at March 18, 1pm if you like.
 */
 
