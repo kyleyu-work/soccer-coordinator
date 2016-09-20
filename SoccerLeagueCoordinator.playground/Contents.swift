@@ -17,7 +17,7 @@ var teamAssignedPlayers: [[[String: Any]]] = []
 var experiencedPlayers: [[String: Any]] = []
 
 /* Inexperienced players */
-var InexperiencedPlayers: [[String: Any]] = []
+var inexperiencedPlayers: [[String: Any]] = []
 
 
 
@@ -82,7 +82,7 @@ func dividePlayersByExperience() {
       if hasExperience as! Bool {   // Forced down cast since we are sure it is Bool.
         experiencedPlayers.append(player)
       } else {
-        InexperiencedPlayers.append(player)
+        inexperiencedPlayers.append(player)
       }
     }
   }
@@ -135,8 +135,8 @@ func assignPlayers(_ players: [[String: Any]]) {
    */
   for k in 0..<teamNum {
     for j in 0..<playerPerTeam / 2 {
-      teamAssignedPlayers[k].append(players[k * playerPerTeam / 2 + j])
-      teamAssignedPlayers[k].append(players[N - 1 - k * playerPerTeam / 2 - j])
+      teamAssignedPlayers[k].append(players[playerPerTeam / 2 * k + j])
+      teamAssignedPlayers[k].append(players[N - 1 - playerPerTeam / 2 * k - j])
     }
   }
   
@@ -196,12 +196,13 @@ initTeams()
 dividePlayersByExperience()
 
 sortPlayersByHeight(&experiencedPlayers)
-sortPlayersByHeight(&InexperiencedPlayers)
+sortPlayersByHeight(&inexperiencedPlayers)
 
 assignPlayers(experiencedPlayers)
-assignPlayers(InexperiencedPlayers)
+assignPlayers(inexperiencedPlayers)
 
 calAverageHeight()
+
 printPersonalizedLetters()
 
 
